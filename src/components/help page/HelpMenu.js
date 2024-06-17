@@ -26,7 +26,7 @@ const HelpMenu = (props) => {
         <div className="Container" onClick={toggleMenu}>
             <StyledHelperSection>
                 <h1 style={{ marginBottom: '10px' }}>
-                    Hello traveller, welcome to Falling Notes! 🌠
+                    Hello traveller, welcome to Melody! 🌠
                 </h1>
                 <p>&nbsp;&nbsp;</p>
                 <h4>INSTRUCTIONS:</h4>
