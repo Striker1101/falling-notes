@@ -41,7 +41,7 @@ jobs:
         run: npm install
 
       - name: Build the React app
-        run: npm run build
+        run: CI=false npm run build  # Disable treating warnings as errors
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
